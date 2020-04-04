@@ -63,14 +63,14 @@ avatar_link: / #默认为主页
 brand: /img/brand.jpg
 
 # 电子邮件
-email: 277133779@qq.com
+email: 1242293215@qq.com
 
 # 电子邮件下方的链接图标
 ## 新连接规则[name]: url | icon
 ## 使用fontawesome图标，只需要写图标名。github -> icon-github | fa-github
 ## http://http://fontawesome.dashgame.com/
 menu_link: 
-  github: https://github.com/codefine | github
+  github: https://github.com/wshawk | github
 
 # 添加新菜单项遵循以下规则
 ## menu:
@@ -81,29 +81,29 @@ menu_link:
 ##    target: _blank    [必要][不渲染] 是否跳出，省略则在当前页面打开
 menu:
   home:
-    text: HOME
+    text: 首页
     url: /
     icon: home
   th-list:
-    text: CATEGORIES
+    text: 分类
     url: /categories
     icon: th-list
   tags:
-    text: TAGS
+    text: 标签
     url: /tags
     icon: tags
   archives:
-    text: ARCHIVES
+    text: 归档
     url: /archives
     icon: archives
-  #about:
-    #text: ABOUT
-    #url: /about
-    #icon: user
-  demo:
-    text: CUSTOM
-    url: /custom
-    icon: plus-square
+  about:
+    text: 关于
+    url: /about
+    icon: user
+  #demo:
+    #text: CUSTOM
+    #url: /custom
+    #icon: plus-square
   #github:
     #url: https://github.com/codefine
     #target: _blank
@@ -201,9 +201,9 @@ footer_fixation: false
 
 # 友情链接
 blogroll:
-  item1:
-    name: HOME
-    url: https://www.lujingtao.com
+  # item1:
+  #   name: HOME
+  #   url: https://www.lujingtao.com
   #item2:
     #name: gitee
     #url: https://www.gitee.com
@@ -244,7 +244,7 @@ baidu_tongji: #appid
 gitment:
   enable: false
   lazy: true #是否开启初始化隐藏评论
-  owner: codefine #github账号
+  owner: wshawk #github账号
   repo: gitment #留言仓库
   oauth: 
     client_id: #client_id
@@ -276,3 +276,5 @@ mathjax:
 
 # 是否使用按钮waves插件
 waves: true
+# 不从google加载字体
+use_font_lato: false
